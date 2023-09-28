@@ -2,22 +2,25 @@ import { styled } from "styled-components";
 
 export const MinhasReceitasContainer = styled.div`
   display: flex;
+  padding: 4em;
   flex-direction: column;
   align-items: center;
-  margin: 120px auto;
+  justify-content: center;
+  flex-wrap: nowrap;
+  
   .receitasContainer {
-    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 64px;
   }
   .navReceitas {
-    margin-left: 5em;
-    align-self: flex-start;
+    width: 100em;
     display: flex;
-    gap: 120px;
+    align-self: center;
+    align-items: center;
     justify-content: space-between;
+    margin-bottom: 2em;
   }
 `

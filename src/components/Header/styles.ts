@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { colors } from '../../colors'
 
 export const HeaderContainer = styled.header`
-  background-color: #C70039;
+  background-color: ${colors.primaryColor};
   padding: 20px;
   border-radius: 0 0 16px 16px;
 `
