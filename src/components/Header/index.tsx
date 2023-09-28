@@ -15,9 +15,6 @@ const Header = () => {
           <li>
             <Link to={`favoritas`}>Favoritas</Link>
           </li>
-          <li>
-            <button>Nova</button>
-          </li>
         </ul>
       </HeaderNavigation>
     </HeaderContainer>

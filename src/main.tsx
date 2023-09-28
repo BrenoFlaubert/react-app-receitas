@@ -14,26 +14,19 @@ const router = createBrowserRouter([
     errorElement: <h1>Content not found</h1>,
     children: [
       {
+        path: "/explorar",
+        element: <Explorar/>,
+      },
+      {
         path: "minhas-receitas",
-        element: <h1>Minhas receutas</h1>,
-        errorElement: <h1>Content not found</h1>,
-        children: []
+        element: <MinhasReceitas/>
+      },
+      {
+        path: "favoritas",
+        element: <Favoritas/>
       }
-    ]
+    ],
   },
-  {
-    path: "explorar",
-    element: <Explorar/>
-  },
-  {
-    path: "minhas-receitas",
-    element: <MinhasReceitas/>
-  },
-  {
-    path: "favoritas",
-    element: <Favoritas/>
-  }
-  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
