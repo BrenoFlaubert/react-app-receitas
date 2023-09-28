@@ -19,7 +19,11 @@ const router = createBrowserRouter([
       },
       {
         path: "minhas-receitas",
-        element: <MinhasReceitas/>
+        element: <MinhasReceitas/>,
+      },
+      {
+        path: "/minhas-receitas/:id",
+        element: <h1>CRUD PARA RECEITA</h1>
       },
       {
         path: "favoritas",
