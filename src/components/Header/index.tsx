@@ -12,9 +12,9 @@ const Header = () => {
           <li>
             <Link to={`explorar`}>Explorar</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to={`favoritas`}>Favoritas</Link>
-          </li>
+          </li> */}
         </ul>
       </HeaderNavigation>
     </HeaderContainer>
