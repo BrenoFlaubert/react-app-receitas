@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.a`
   .card {
     width: 352px;
     height: 465px;
@@ -24,7 +24,6 @@ export const CardContainer = styled.div`
     margin: 20px;
     display: flex;
     flex-direction: column;
-    align-items: space-around;
   }
 
   .description .h3 {
