@@ -2,8 +2,8 @@ import { styled } from "styled-components";
 import { colors } from "../../../colors";
 
 export const InputStyled = styled.input`
-  width: 50%;
-  height: 4em;
+  min-width: 50%;
+  height: 4.5em;
   border-radius: 8px;
   padding: 0 1rem;
   transition: .3s ease;
