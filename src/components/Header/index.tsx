@@ -7,14 +7,14 @@ const Header = () => {
       <HeaderNavigation>
         <ul>
           <li>
+            <Link to={``}>Home</Link>
+          </li>
+          <li>
             <Link to={`minhas-receitas`}>Minhas receitas</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to={`explorar`}>Explorar</Link>
-          </li> */}
-          {/* <li>
-            <Link to={`favoritas`}>Favoritas</Link>
-          </li> */}
+          </li>
         </ul>
       </HeaderNavigation>
     </HeaderContainer>

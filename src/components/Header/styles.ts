@@ -4,7 +4,7 @@ import { colors } from '../../colors'
 export const HeaderContainer = styled.header`
   background-color: ${colors.primaryColor};
   padding: 1em;
-  border-radius: 0 0 16px 16px;
+  //border-radius: 0 0 16px 16px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { CardContainer } from "./styles";
-import { IReceita } from "../../types/IReceita";
+import { InterfaceReceita } from "../../types/IReceita";
 
-const Card = ({id, name, imgUrl, description, assessment, owner}: IReceita) => {
+const Card = ({id, nome, imgUrl, descricao, autor, criadoEm}: InterfaceReceita) => {
   return (
     <CardContainer>
       <Link to={`receita/${id}`}>
@@ -10,11 +10,11 @@ const Card = ({id, name, imgUrl, description, assessment, owner}: IReceita) => {
             <img className="img" src={imgUrl} alt="" />
             <div className="description">
               <div style={{display: "flex", justifyContent: "space-between"}}>
-                <p className="h3">{name}</p>
-                <p className="h3">Nota {assessment} / 5</p>
+                <p className="h3">{nome}</p>
+                <p className="h3">Postado em: {criadoEm}</p>
               </div>
-              <p className="p">Property: {owner?.ownerName}</p>
-              <p className="p">{description}</p>
+              <p className="p">Property: {autor}</p>
+              <p className="p">{descricao}</p>
             </div>
           </div>
       </Link>
