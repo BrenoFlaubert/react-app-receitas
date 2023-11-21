@@ -3,7 +3,7 @@ import { colors } from "../../../colors";
 
 export const InputStyled = styled.input`
   min-width: 50%;
-  height: 4.5em;
+  height: 4em;
   border-radius: 8px;
   padding: 0 1rem;
   transition: .3s ease;
